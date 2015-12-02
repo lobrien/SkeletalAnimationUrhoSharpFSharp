@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "06_SkeletalAnimation", "06_SkeletalAnimation\06_SkeletalAnimation.fsproj", "{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}.Debug|iPhone.Build.0 = Debug|iPhone
+		{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}.Release|iPhone.ActiveCfg = Release|iPhone
+		{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}.Release|iPhone.Build.0 = Release|iPhone
+		{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{897BD10A-7951-4F16-AAF8-4C2CFFBDCB7C}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+EndGlobal
