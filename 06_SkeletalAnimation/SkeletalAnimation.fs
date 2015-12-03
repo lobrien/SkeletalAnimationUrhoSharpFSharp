@@ -81,15 +81,11 @@ type SkeletalAnimation(options) as this =
         let modelRotateSpeed = 100.0f
         let bounds = new BoundingBox (new Vector3(-47.0f, 0.0f, -47.0f), new Vector3(47.0f, 0.0f, 47.0f))
 
-        for i in 0 .. numModels do
-            let modelNode = scene.CreateChild("Jack" + i.ToString())
+        for _ in 0 .. numModels do
+            let modelNode = scene.CreateChild("Jack")
 
-            let randX = this.NextRandom(-45, 45)
-            let randZ = this.NextRandom(-45, 45)
-            modelNode.Position <- new Vector3(randX, 0.0f, randZ)
-            let randRot = this.NextRandom(0, 360)
-            modelNode.Rotation <- new Quaternion (0.f, randRot, 0.f)
-            Console.WriteLine("Jack[" + i.ToString() + "] " + randX.ToString() + " " + randZ.ToString() + " " + randRot.ToString())
+            modelNode.Position <- new Vector3(this.NextRandom(-45, 45), 0.0f, this.NextRandom(-45, 45))
+            modelNode.Rotation <- new Quaternion (0.f, this.NextRandom(0, 360), 0.f)
             let modelObject = new AnimatedModel ()
             modelNode.AddComponent (modelObject)
             modelObject.Model <- this.ResourceCache.GetModel("Models/Jack.mdl")
